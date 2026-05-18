@@ -1,0 +1,43 @@
+{
+  "title": "Ktupad Core: A Lightweight PHP PDO Engine for JSON-Driven CRUD Operations",
+  "description": "Ktupad Core is a single-entry-point MVC micro-framework built on PHP PDO, designed for rapid backend API development with minimal dependencies. All CRUD operations are dispatched via JSON payloads, enabling decoupled frontend architectures suitable for low-resource server environments and educational institutional systems in Indonesia. The framework implements Front Controller, Active Record, and Command design patterns through a flat three-layer inheritance chain. It features built-in role-based access control, token-based authentication, hierarchical user scoping, file upload handling, and CSV bulk import. Originally developed in 2019 and registered as intellectual property EC00201952487 at the Direktorat Jenderal Kekayaan Intelektual (DJKI), Republic of Indonesia. Ktupad Core is the foundational layer of the Ktupad ecosystem, architecturally preceding BayamJS (EC00202367008, 2023) and DonatJS (EC00202414144, 2024).",
+  "creators": [
+    {
+      "name": "Sismadi, Wawan",
+      "affiliation": "Universitas IPWIJA / PT Sismadi Langit Solusi",
+      "orcid": "0009-0007-2685-5663"
+    }
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "upload_type": "software",
+  "publication_date": "2019-01-01",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "PHP",
+    "PDO",
+    "CRUD",
+    "MVC",
+    "micro-framework",
+    "JSON API",
+    "Active Record",
+    "Front Controller",
+    "backend framework",
+    "web development",
+    "Indonesian web framework",
+    "educational technology",
+    "low-resource computing"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/ktupad/core",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "Intellectual Property Registration: EC00201952487, Direktorat Jenderal Kekayaan Intelektual (DJKI), Republic of Indonesia. SINTA Author ID: 6848496.",
+  "communities": [
+    { "identifier": "zenodo" }
+  ]
+}
