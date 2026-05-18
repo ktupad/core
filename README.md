@@ -2,7 +2,8 @@
 
 **A lightweight PHP PDO engine for JSON-driven CRUD operations**
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/1242582338.svg)](https://doi.org/10.5281/zenodo.20273746)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PHP](https://img.shields.io/badge/PHP-%3E%3D7.4-blue.svg)](https://php.net)
 
@@ -192,7 +193,7 @@ If you use Ktupad Core in your research, please cite:
   year         = {2019},
   publisher    = {Zenodo},
   version      = {1.0.0},
-  doi          = {10.5281/zenodo.XXXXXXX},
+  doi          = {10.5281/zenodo.20273747},
   url          = {https://github.com/ktupad/core},
   note         = {Registered intellectual property EC00201952487, DJKI Republic of Indonesia}
 }
