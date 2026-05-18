@@ -1,0 +1,68 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it using the metadata below."
+type: software
+
+title: "Ktupad Core: A Lightweight PHP PDO Engine for JSON-Driven CRUD Operations"
+abstract: >
+  Ktupad Core is a single-entry-point MVC micro-framework built on PHP PDO,
+  designed for rapid backend API development with minimal dependencies.
+  All CRUD operations are dispatched via JSON payloads, enabling decoupled
+  frontend architectures suitable for low-resource server environments and
+  educational institutional systems. The framework implements Front Controller,
+  Active Record, and Command patterns through a flat three-layer inheritance
+  chain (koneksi → ktupad → mod), with built-in role-based access control,
+  token authentication, file upload handling, and CSV import functionality.
+  Originally developed in 2019 and registered as intellectual property
+  EC00201952487 at the Direktorat Jenderal Kekayaan Intelektual (DJKI),
+  Republic of Indonesia, Ktupad Core serves as the foundational architecture
+  preceding BayamJS (2023) and DonatJS (2024) in the Ktupad ecosystem.
+
+authors:
+  - family-names: "Sismadi"
+    given-names: "Wawan"
+    orcid: "https://orcid.org/0009-0007-2685-5663"
+    affiliation: "Universitas IPWIJA / PT Sismadi Langit Solusi"
+    alias: "wawan-sismadi"
+
+version: "1.0.0"
+date-released: "2019-01-01"
+license: MIT
+
+repository-code: "https://github.com/ktupad/core"
+url: "https://github.com/ktupad/core"
+
+keywords:
+  - PHP
+  - PDO
+  - CRUD
+  - MVC
+  - micro-framework
+  - JSON API
+  - Active Record
+  - Front Controller
+  - backend framework
+  - web development
+  - Indonesian web framework
+  - educational technology
+
+identifiers:
+  - type: other
+    value: "EC00201952487"
+    description: "Intellectual Property Registration Number, DJKI Republic of Indonesia"
+
+references:
+  - type: software
+    title: "BayamJS: MVC JavaScript Framework"
+    authors:
+      - family-names: "Sismadi"
+        given-names: "Wawan"
+    year: 2023
+    notes: "HKI EC00202367008, DJKI Republic of Indonesia. Successor framework to Ktupad."
+
+  - type: software
+    title: "DonatJS: JSON-Driven MVC Frontend Framework"
+    authors:
+      - family-names: "Sismadi"
+        given-names: "Wawan"
+    year: 2024
+    notes: "HKI EC00202414144, DJKI Republic of Indonesia. Third-generation evolution of the Ktupad ecosystem."
