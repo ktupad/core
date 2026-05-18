@@ -1,12 +1,12 @@
 <?php
-include('system/ktupad.php');
+include('ktupad.php');
 class koneksi{
 
 public $database=array(
 'h'=>'localhost',
 'u'=>'root',
-'p'=>'16@Hamas',
-'n'=>'suara'
+'p'=>'DB_PASSWORD',
+'n'=>'DB_NAME'
 );
 
 function connect(){
